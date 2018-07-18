@@ -1,0 +1,11 @@
+
+1.获取搜索结果，包含filename和mid
+http://https//c.y.qq.com/soso/fcgi-bin/client_search_cp?ct=24&qqmusic_ver=1298&new_json=1&remoteplace=txt.yqq.song&searchid=58810188357258482&t=0&aggr=1&cr=1&catZhida=1&lossless=0&flag_qc=0&p=1&n=20&w=%E4%B8%8D%E4%BB%85%E4%BB%85%E6%98%AF%E5%96%9C%E6%AC%A2&g_tk=5381&jsonpCallback=MusicJsonCallback17059859803565036&loginUin=0&hostUin=0&format=jsonp&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq&needNewCode=0
+
+2.由filename和songmid获取音乐的vkey
+
+https://c.y.qq.com/base/fcgi-bin/fcg_music_express_mobile3.fcg?g_tk=5381&jsonpCallback=MusicJsonCallback6925399814011781&loginUin=0&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq&needNewCode=0&cid=205361747&callback=MusicJsonCallback6925399814011781&uin=0&songmid=001Nl0W80sBSwJ&filename=C400001CkBs10UxKxc.m4a&guid=9125560300
+
+
+3.根据vkey和filename下载歌曲
+http://dl.stream.qqmusic.qq.com/C400001CkBs10UxKxc.m4a?vkey=324DDA2CD2404FD2EFB61E3F884B6B8C627B23C6B9E246FD990AEF7812084AFDEF5340A94DEBE5590FEFF4BEBE5AD994232656CD64365C2F&guid=9125560300&uin=0&fromtag=66
